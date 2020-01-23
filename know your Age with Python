@@ -1,0 +1,9 @@
+import datetime
+def main():
+    BY=input("Enter Your Birth Year:")
+    YearNow=datetime.datetime.now().year
+    My_Age= YearNow-int(BY)
+    print("You age is {} Year".format(My_Age))
+
+
+if __name__ == '__main__':main()
